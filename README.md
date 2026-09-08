@@ -90,7 +90,7 @@ Before formal ER modeling, the nouns and events identified from the business nar
 
 **Associative/detail records (connect entities to events):** Purchase line item, Sale line item, Inventory record (product × location)
 
-Entity relationship diagram for the retail-wholesale business, showing suppliers, purchases, products, inventory, locations, customers, sales, payments, employees, and dispatch tables
+### Entity relationship diagram for the retail-wholesale business, showing suppliers, purchases, products, inventory, locations, customers, sales, payments, employees, and dispatch tables
 
 [RETAIL-WHOLESALE BUSINESS ER-DIAGRAM](https://drive.google.com/file/d/1sUylEDfsWjDMMYVlEqNzWyjhzDMUKqrD/view?usp=drive_link)
 
