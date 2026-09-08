@@ -29,5 +29,47 @@ SUPPLIER :- Not a direct user. But what is owed to them must be entered accurate
 - Some customers are recurring, others are one-off.
   
 - Some orders are dispatched to other states rather than collected in person.
+- 
+
+### FUNCTIONAL REQUIREMENTS
+
+Grouped by business domain each maps to one or more tables in the eventual schema.
+
+**Inventory**
+
+- The system must track stock quantity per product, per location independently.
+- The system must prevent a sale from reducing stock below zero at a given location.
+- The system must flag products at or below a defined reorder threshold.
+
+**Purchasing**
+
+- The system must record purchases from suppliers, including which location received the goods.
+- The system must support purchases paid in full, in part, or entirely on credit, with a due date where applicable.
+
+**Sales**
+
+- The system must record sales as retail or wholesale, with pricing that can differ from the product's default.
+- The system must support a sale item sourced from outside the business's own stock (e.g. a neighboring shop), and record what it cost to source it.
+- The system must support a sale to an unregistered/anonymous walk-in customer.
+- The system must support multiple payment methods against a single sale, including partial payment.
+
+**Customers & Credit**
+
+- The system must distinguish recurring customers from new/one-off customers.
+- The system must be able to report, at any time, how much any given customer currently owes.
+
+**Staff Accountability**
+
+- Every sale must record which staff member entered it.
+- Every purchase must record which staff member received the delivery.
+
+**Dispatch**
+
+- The system must track orders delivered to other states, including courier and delivery status, separately from orders collected in person.
+
+**Reporting (the CEO layer)**
+
+- The system must be able to summarize, for any given day: total sales by type, payments by method, outstanding customer credit, outstanding supplier credit, and estimated profit.
+
 
 
