@@ -1,2 +1,2 @@
 # DATABASE-DESIGN-FOR-A-RETAIL-WHOLESALE-BUSINESS
-The goal of this project is to foster easy record entry and retrieval
+The goal of this project is to foster efficient entry and retrieval of every record associated with the business 
