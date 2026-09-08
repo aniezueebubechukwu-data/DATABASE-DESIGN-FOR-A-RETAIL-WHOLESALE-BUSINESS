@@ -94,3 +94,4 @@ Before formal ER modeling, the nouns and events identified from the business nar
 
 [RETAIL-WHOLESALE BUSINESS ER-DIAGRAM](https://drive.google.com/file/d/1sUylEDfsWjDMMYVlEqNzWyjhzDMUKqrD/view?usp=drive_link)
 
+### Find uploaded to this repository RETAIL-WHOLESALE BUSINESS SCHEMA, the database designed in SQL 
