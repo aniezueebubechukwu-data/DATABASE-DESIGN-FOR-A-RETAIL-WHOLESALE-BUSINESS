@@ -49,7 +49,6 @@ Grouped by business domain each maps to one or more tables in the eventual schem
 **Sales**
 
 - The system must record sales as retail or wholesale, with pricing that can differ from the product's default.
-- The system must support a sale item sourced from outside the business's own stock (e.g. a neighboring shop), and record what it cost to source it.
 - The system must support a sale to an unregistered/anonymous walk-in customer.
 - The system must support multiple payment methods against a single sale, including partial payment.
 
@@ -70,6 +69,24 @@ Grouped by business domain each maps to one or more tables in the eventual schem
 **Reporting (the CEO layer)**
 
 - The system must be able to summarize, for any given day: total sales by type, payments by method, outstanding customer credit, outstanding supplier credit, and estimated profit.
+
+### BUSINESS RULES
+
+Constraints and logic derived directly from how the business actually works, which the schema must enforce or support:
+
+- A product's stock is meaningful only in the context of a specific location "how many do we have" is never a single number without also asking "where."
+- A sale can draw stock from the business's own inventory.
+- A customer or supplier balance is not a stored value it is always the difference between what was agreed (total amount) and what has actually been paid (amount paid) as of now.
+- A sale is not necessarily fully paid at the time it's recorded partial payment and later settlement must also be accounted for.
+- Not every sale is dispatched; dispatch is the exception, not the default flow
+
+### PRELIMINARY ENTITY LIST
+
+Before formal ER modeling, the nouns and events identified from the business narrative are seen below:
+
+**Core entities (things):** Product, Location, Supplier, Customer, Employee
+**Transactional events (things that happen):** Purchase, Sale, Payment, Dispatch
+**Associative/detail records (connect entities to events):** Purchase line item, Sale line item, Inventory record (product × location)
 
 
 
