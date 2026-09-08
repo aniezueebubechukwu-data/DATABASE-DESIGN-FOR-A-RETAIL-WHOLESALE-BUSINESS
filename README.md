@@ -6,7 +6,11 @@ Zentra Ltd is a company that’s into the sale of quality umbrellas and canopies
 
 ### STAKEHOLDERS
 ### Below outlines each stakeholders and their interest in the system 
+
 BUSINESS OWNER (CEO) :- Full visibility into stock, purchase, sales, credit and profit without asking the staff
+
 SHOP STAFF (2 EMPLOYEES) :- Easily enter a sale  and delivery record
+
 CUSTOMER :- Not direct user. But their purchase and credit history must be tracked accurately
-SUPPLIER :- 
+
+SUPPLIER :- Not a direct user. But what is owed to them must be entered accurately
