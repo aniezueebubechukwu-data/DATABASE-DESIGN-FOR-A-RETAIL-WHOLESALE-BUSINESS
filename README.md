@@ -29,7 +29,7 @@ SUPPLIER :- Not a direct user. But what is owed to them must be entered accurate
 - Some customers are recurring, others are one-off.
   
 - Some orders are dispatched to other states rather than collected in person.
-- 
+  
 
 ### FUNCTIONAL REQUIREMENTS
 
