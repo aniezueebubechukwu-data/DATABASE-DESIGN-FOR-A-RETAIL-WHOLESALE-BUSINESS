@@ -85,7 +85,9 @@ Constraints and logic derived directly from how the business actually works, whi
 Before formal ER modeling, the nouns and events identified from the business narrative are seen below:
 
 **Core entities (things):** Product, Location, Supplier, Customer, Employee
+
 **Transactional events (things that happen):** Purchase, Sale, Payment, Dispatch
+
 **Associative/detail records (connect entities to events):** Purchase line item, Sale line item, Inventory record (product × location)
 
 
