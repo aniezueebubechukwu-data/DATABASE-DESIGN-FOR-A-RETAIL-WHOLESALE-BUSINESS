@@ -1,5 +1,5 @@
 -- =====================================================================
--- RETAIL / WHOLESALE BUSINESS SCHEMA
+-- RETAIL-WHOLESALE BUSINESS SCHEMA
 
 CREATE DATABASE RETAIL_WHOLESALE_BUSINESS_DB
 
