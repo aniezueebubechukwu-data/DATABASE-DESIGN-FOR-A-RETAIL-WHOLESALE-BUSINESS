@@ -14,3 +14,20 @@ SHOP STAFF (2 EMPLOYEES) :- Easily enter a sale  and delivery record
 CUSTOMER :- Not direct user. But their purchase and credit history must be tracked accurately
 
 SUPPLIER :- Not a direct user. But what is owed to them must be entered accurately
+
+### BUSINESS CONTEXT
+### The information gathered below describes the business operation :
+
+- Products are bought from multiple suppliers and split across two physical locations: a warehouse (bulky items like canopies) and a shop (smaller items, though some overlap exists between both).
+  
+- Customers are both retail (walk-in) and wholesale (bulk buyers), and payment can be cash, POS, transfer, or credit with a due date.
+  
+- The business itself sometimes buys from its own suppliers on credit.
+  
+- Two staff handle packaging and sales entry.
+  
+- Some customers are recurring, others are one-off.
+  
+- Some orders are dispatched to other states rather than collected in person.
+
+
